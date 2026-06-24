@@ -1,0 +1,27 @@
+/node_modules
+/oh_modules
+/local.properties
+/.idea
+**/build
+/.hvigor
+.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+/.appanalyzer
+
+# Docs and reports
+/docs
+/report
+
+# Claude Code
+/.claude
+
+# Signing materials
+*.p12
+*.p7b
+*.cer
+
+# Lock file
+oh-package-lock.json5

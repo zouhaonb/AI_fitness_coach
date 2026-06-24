@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\zouha\\.ohos\\config\\default_AI_fitness_coach_GtHzF_IfpuAUscWpLePt0kJomeIOs3YSGrS11SVw3jU=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B5DC43FB5628EDAA126A660322889708335B2F11E0DA929ED091307FB564E429764A9F3CF79C79D",
+          "profile": "C:\\Users\\zouha\\.ohos\\config\\default_AI_fitness_coach_GtHzF_IfpuAUscWpLePt0kJomeIOs3YSGrS11SVw3jU=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\zouha\\.ohos\\config\\default_AI_fitness_coach_GtHzF_IfpuAUscWpLePt0kJomeIOs3YSGrS11SVw3jU=.p12",
+          "storePassword": "0000001B5D6D580A30C760D0A65EC489AECF9E4B0B6BCA64942229F79ED5DED0960631DDCC048B91ED02E3"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.0.2(22)",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

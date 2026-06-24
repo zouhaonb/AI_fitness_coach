@@ -1,0 +1,14 @@
+{
+  "src": [
+    "pages/Login",
+    "pages/Index",
+    "pages/ExerciseLibrary",
+    "pages/Statistics",
+    "pages/Profile",
+    "pages/ExerciseDetail",
+    "pages/ExerciseExecution",
+    "pages/PlanSetting",
+    "pages/AboutApp",
+    "pages/AuthorInfo"
+  ]
+}
